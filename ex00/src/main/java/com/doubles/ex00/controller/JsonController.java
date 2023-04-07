@@ -12,7 +12,7 @@ public class JsonController {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonController.class);
 
-    @RequestMapping("doJson")
+    @RequestMapping("/doJson")
     @ResponseBody
     public ProductVO doJson() {
         ProductVO vo = new ProductVO("sample product", 300000);
